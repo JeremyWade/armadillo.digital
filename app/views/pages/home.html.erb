@@ -1,3 +1,49 @@
+        <div class="nav-container">
+            <div>
+                <div class="bar bar--sm visible-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-2">
+                                <%= link_to root_path do %>
+                                    <%= image_tag('armadillo11.png', class: 'logo logo-dark', alt: 'Armadillo Digital') %>
+                                    <% end %>
+                            </div>
+                            <div class="col-xs-9 col-sm-10 text-right">
+                                <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs hidden-sm"> <i class="icon icon--sm stack-interface stack-menu"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav id="menu1" class="bar bar-1 hidden-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-2 hidden-xs">
+                                <div class="bar__module">
+                                    <%= link_to root_path do %>
+                                    <%= image_tag('armadillo11.png', class: 'logo logo-dark', alt: 'Armadillo Digital') %>
+                                    <% end %>
+                                </div>
+                            </div>
+                            <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+                                <div class="bar__module">
+                                    <ul class="menu-horizontal text-left">
+                                        <li> <a href="#">
+                                    </a> </li>
+                                    </ul>
+                                </div>
+                                <div class="bar__module">
+                                    <%= link_to "About", "https://www.instagram.com/armadillodigital/", :class => "btn btn--sm type--uppercase"%>
+                                    <%= link_to "https://armadillodigital.typeform.com/to/Avwg5m", :class => "btn btn--sm type--uppercase" do %>
+                                        Contact Us
+                                        <span class="btn__text"></span>
+                                        <% end %>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
         <div class="main-container">
             <section class="space--xxs">
                 <div class="container">
@@ -39,29 +85,42 @@
                     </div>
                 </div>
             </section>
-                   <section class="bg--dark">
+            <section class="switchable feature-large space--xxs bg--dark switchable--switch text-right">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-4">
-                            <div class="feature feature-2 boxed boxed--border"> 
-                               <i class="icon color--primary icon-Alien"></i>
-                                <div class="feature__body">
-                                    <p>Jeremy.<br>CoFounder, Director - Tech.<br>jeremy@armadillo.digital</p>
-                                </div>
+                        <div class="col-sm-6"> 
+                              <%= image_tag('ron.jpg', class: 'border--round', alt: 'Intro') %> </div>
+                        <div class="col-sm-6 col-md-5">
+                            <div class="switchable__text">
+                                <div class="text-block">
+                                    <h2>Ronita Choudhuri</h2> <span>Cofounder</span> </div>
+                                <p class="lead"> Director, Creative + Design </p>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="feature feature-2 boxed boxed--border"> 
-                                <i class="icon color--primary icon-Alien"></i>
-                                <div class="feature__body">
-                                    <p>Ronita.<br>CoFounder, Director - Design.<br>ronita@armadillo.digital</p>
-                                </div>
+                    </div>
+                </div>
+            </section>
+            <section class="switchable feature-large space--xxs">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6"> 
+                            <%= image_tag('jwade.jpg', class: 'border--round', alt: 'Intro') %> </div>
+                        <div class="col-sm-6 col-md-5">
+                            <div class="switchable__text">
+                                <div class="text-block">
+                                    <h2>Jeremy Wade</h2> <span>Cofounder</span> </div>
+                                <p class="lead"> Director, Tech + Design </p>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="feature feature-2 boxed boxed--border"> <i class="icon icon-Life-Jacket color--primary"></i>
-                                <div class="feature__body">
-                                    <p>Puja.<br>Executive Assistant.<br>puja@armadillo.digital</p>
+                    </div>
+                </div>
+            </section>
+               <section class="imagebg space--xs" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                                <div class="col-md-12 text-center">
+                                    <%= link_to "Contact Us", "https://armadillodigital.typeform.com/to/Avwg5m", :class => "btn btn--sm type--uppercase"%>
                                 </div>
                             </div>
                         </div>
@@ -74,12 +133,6 @@
                         <div class="col-sm-6"> <span class="type--fine-print">© 2017 <span class="2017"></span> Armadillo Digital — All Rights Reserved</span>
                         </div>
                         <div class="col-sm-6 text-right text-center-xs">
-                          <ul class="social-list list-inline">
-                                <li>    
-                                <%= link_to "<i class=\"socicon socicon-facebook icon icon--xs\"></i>".html_safe, "https://twitter.com/jsiein"-%></li>
-                                <li><a href="#"><i class="socicon socicon-facebook icon icon--xs"></i></a></li>
-                                <li><a href="#"><i class="socicon socicon-instagram icon icon--xs"></i></a></li>
-                            </ul>
                         </div>
                     </div>
                 </div>
