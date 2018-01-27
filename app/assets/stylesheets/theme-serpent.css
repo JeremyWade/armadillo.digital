@@ -73,7 +73,7 @@ body {
   line-height: 1.85714286em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Nobile','Open Sans', 'Helvetica', 'Arial', sans-serif;
   color: #666666;
   font-weight: 400;
 }
@@ -89,7 +89,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Nobile','Open Sans', 'Helvetica', 'Arial', sans-serif;
   color: #252525;
   font-weight: 300;
   font-variant-ligatures: common-ligatures;
@@ -833,7 +833,7 @@ div[data-overlay] ul {
 }
 /**! 06. Buttons **/
 .btn {
-  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Nobile', 'Open Sans', 'Helvetica', 'Arial', sans-serif;
   transition: 0.1s linear;
   -webkit-transition: 0.1s linear;
   -moz-transition: 0.1s linear;
@@ -951,8 +951,8 @@ div[data-overlay] ul {
 }
 .btn--primary,
 .btn--primary:visited {
-  background: #5bc0be;
-  border-color: #5bc0be;
+  background: #d78c40;
+  border-color: #d78c40;
 }
 .btn--primary .btn__text,
 .btn--primary:visited .btn__text {
@@ -963,25 +963,25 @@ div[data-overlay] ul {
   color: #fff;
 }
 .btn--primary:hover {
-  background: #6dc7c5;
+  background: #ff8100;
 }
 .btn--primary:active {
-  background: #49b9b7;
+  background: #d78c40;
 }
 .btn--primary-1,
 .btn--primary-1:visited {
-  background: #3a506b;
-  border-color: #3a506b;
+  background: #074c60;
+  border-color: #074c60;
 }
 .btn--primary-1 .btn__text,
 .btn--primary-1:visited .btn__text {
   color: #fff;
 }
 .btn--primary-1:hover {
-  background: #435c7c;
+  background: #074c60;
 }
 .btn--primary-1:active {
-  background: #31445a;
+  background: #074c60;
 }
 .btn--primary-2,
 .btn--primary-2:visited {
@@ -2769,10 +2769,10 @@ a {
   background: #ffffff;
 }
 .bg--secondary {
-  background: #fafafa;
+  background: #c0b6ac;
 }
 .bg--primary {
-  background: #5bc0be;
+  background: #074c60;
 }
 .bg--primary p,
 .bg--primary span,
@@ -4196,7 +4196,7 @@ pre {
 }
 /*! -- Stack Links -- */
 a {
-  color: #5bc0be;
+  color: #074c60;
   font-weight: 700;
 }
 a:hover {
