@@ -1,3 +1,11 @@
+ <% content_for :head do %>
+  <meta property="og:url"           content="http://armadillo.digital/" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Armadillo Digital" />
+  <meta property="og:image"         content="<%=asset_url('jsief2.jpg') %>" />
+  <meta property="fb:app_id"        content="1002420269910134" />
+  <% end %>
+
         <div class="nav-container">
             <div>
                 <div class="bar bar--sm visible-xs">
@@ -204,3 +212,4 @@
     </body>
 
 </html>
+ <script> mixpanel.track("Landing Page");</script>           
