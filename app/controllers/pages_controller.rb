@@ -5,4 +5,6 @@ class PagesController < ApplicationController
   end
   def brandingworksheet
   end
+  def contact
+  end
 end

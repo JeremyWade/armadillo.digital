@@ -34,10 +34,8 @@
                                 <div class="bar__module">
                                     <%= link_to "About", about_path, :class => "btn btn--sm type--uppercase"%>
                                     <%= link_to "instagram", "https://www.instagram.com/armadillodigital/", :class => "btn btn--sm type--uppercase"%>
-                                         <%= link_to "https://armadillodigital.typeform.com/to/Avwg5m", :class => "btn btn--sm type--uppercase" do %>
-                                        Contact Us
-                                        <span class="btn__text"></span>
-                                        <% end %>
+                                         <%= link_to "contact us", contact_path, :class => "btn btn--sm type--uppercase" %>
+                                        
                                 </div>
                             </div>
                         </div>
@@ -120,7 +118,7 @@
                             <div class="pricing pricing-1 boxed boxed--border boxed--lg">
                                 <h4>Brand Development Strategy<br></h4> <span class="h1"><span class="pricing__dollar"> ₹</span>150,000+</span>
                                 <p>Get the full expertise of the Armadillo Digital team to get your brand right. </p>
-                                <%= link_to "https://armadillodigital.typeform.com/to/Avwg5m", :class => "btn btn--primary type--uppercase" do %>
+                                <%= link_to contact_path, :class => "btn btn--primary type--uppercase" do %>
                                         Contact Us
                                         <span class="btn__text"></span>
                                         <% end %>
@@ -184,7 +182,7 @@
                     <div class="row">
                         <div class="col-sm-12">
                                 <div class="col-md-12 text-center">
-                                    <%= link_to "Contact Us", "https://armadillodigital.typeform.com/to/Avwg5m", :class => "btn btn--sm type--uppercase"%>
+                                    <%= link_to "Contact Us", contact_path, :class => "btn btn--sm type--uppercase"%>
                                 </div>
                             </div>
                         </div>
