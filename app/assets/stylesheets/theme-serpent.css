@@ -100,7 +100,9 @@ h1,
 .h1 {
   font-size: 7.14285714em;
   line-height: 1.31818182em;
-  font-weight: 800;
+  font-weight: 300;
+  color: #ffffff;
+
 }
 h2,
 .h2 {
@@ -559,8 +561,8 @@ img {
   z-index: 0;
   transition: opacity .3s linear;
   -webkit-transition: opacity .3s linear;
-  opacity: 0;
-  background: #252525;
+  opacity: 1;
+ 
 }
 .background-image-holder:not([class*='col-']) {
   width: 100%;
@@ -575,7 +577,7 @@ img {
   background: none;
 }
 .background-image-holder img {
-  display: none;
+  
 }
 [data-overlay] {
   position: relative;
