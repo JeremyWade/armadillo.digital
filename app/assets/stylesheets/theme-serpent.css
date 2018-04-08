@@ -958,8 +958,8 @@ div[data-overlay] ul {
 }
 .btn--primary,
 .btn--primary:visited {
-  background: #d78c40;
-  border-color: #d78c40;
+  background: #DAA520;
+  border-color: #DAA520;
 }
 .btn--primary .btn__text,
 .btn--primary:visited .btn__text {
@@ -4203,7 +4203,7 @@ pre {
 }
 /*! -- Stack Links -- */
 a {
-  color: #074c60;
+  color: #252525;
   font-weight: 700;
 }
 a:hover {
@@ -4411,7 +4411,7 @@ hr[data-title]:before {
   position: relative;
 }
 .btn:not([class*='primary']) {
-  border-color: #d3d3d3;
+  border-color: #fff;
 }
 .btn:not([class*='primary']):hover {
   border-color: #252525;

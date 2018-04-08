@@ -17,7 +17,9 @@
                                     <% end %>
                             </div>
                             <div class="col-xs-9 col-sm-10 text-right">
-                                <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs hidden-sm"> <i class="icon icon--sm stack-interface stack-menu"></i> </a>
+                                 <%= link_to "about.", about_path, :class => "btn primary btn--sm"%>
+                                    <%= link_to "instagram.", "https://www.instagram.com/armadillodigital/", :class => "btn primary btn--sm"%>
+                                         <%= link_to "contact us.", contact_path, :class => "btn primary btn--sm" %>
                             </div>
                         </div>
                     </div>
@@ -27,22 +29,22 @@
                         <div class="row">
                             <div class="col-md-1 col-sm-2 hidden-xs">
                                 <div class="bar__module">
-                                    <%= link_to root_path do %>
-                                    <%= image_tag('armadillologo.png', class: 'logo logo-dark', alt: 'Armadillo Digital') %>
-                                    <% end %>
+                                  
                                 </div>
                             </div>
-                            <div class="col-md-11 col-sm-12 text-right text-left-xs text-left-sm">
+                            <div class="col-md-12 text-center">
                                 <div class="bar__module">
-                                    <ul class="menu-horizontal text-left">
+                                    <ul class="menu-horizontal text-center">
                                         <li> <a href="#">
                                     </a> </li>
                                     </ul>
                                 </div>
-                                <div class="bar__module">
-                                    <%= link_to "About", about_path, :class => "btn btn--sm type--uppercase"%>
-                                    <%= link_to "instagram", "https://www.instagram.com/armadillodigital/", :class => "btn btn--sm type--uppercase"%>
-                                         <%= link_to "contact us", contact_path, :class => "btn btn--sm type--uppercase" %>
+                               <div class="bar__module">
+                                    <%= link_to "about.", about_path, :class => "btn primary btn--sm"%>
+                                    <%= link_to "instagram.", "https://www.instagram.com/armadillodigital/", :class => "btn primary btn--sm"%>
+                                         <%= link_to "contact us.", contact_path, :class => "btn primary btn--sm" %>
+                                        
+                                </div>
                                         
                                 </div>
                             </div>
@@ -53,11 +55,11 @@
         </div>
 
 <div class="main-container">
-<section class="hero-divider hidden-xs">
+<section class="hero-divider">
 <%= video_tag("move.mp4", class: 'video-wrapper', autoplay: true, loop: true) %>
 <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
 <h1>armadillo digital.</h1>
-<h2 align="right">moving brands forward. </h2>
+<h2 align="right">moving ideas forward. </h2>
 </div>
 
   </div>
@@ -127,7 +129,7 @@
                     </div>
                 </div>
             </section>
-            <section class="cover imagebg text-center height-50" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
+            <section class="cover imagebg text-center gradient height-50"">
                 <div class="container pos-vertical-center">
                     <div class="row">
                         <div class="col-sm-9 col-md-7">
