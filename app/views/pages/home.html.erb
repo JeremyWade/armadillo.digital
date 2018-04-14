@@ -5,7 +5,6 @@
   <meta property="og:image"         content="<%=asset_url('admeta.png') %>" />
   <meta property="fb:app_id"        content="1002420269910134" />
   <% end %>
-
         <div class="nav-container">
             <div>
                 <div class="bar bar--sm visible-xs">
@@ -55,20 +54,63 @@
         </div>
 
 <div class="main-container">
+<div class="hidden-xs">
 <section class="hero-divider">
 <%= video_tag("move.mp4", class: 'video-wrapper', autoplay: true, loop: true) %>
 <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
 <h1>armadillo digital.</h1>
 <h2 align="right">moving ideas forward. </h2>
 </div>
+</div>
+</section>
+<div class="visible-xs">
+<section class="hero-divider1">
+<%= video_tag("move.mp4", class: 'video-wrapper', autoplay: true, loop: true) %>
+<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+<h1>armadillo digital.</h1>
+<h2 align="right">moving ideas forward. </h2>
+</div>
+</div>
 
   </div>
+</section>
       <section>
-                <div class="container">
+                <div class="container visible-xs visible-sm">
+                     <div class="row">
+                        <div class="col-md-4">
+                            <div class="text-block text-center">
+                                <h2>what we do.</h2>
+                            </div>
+                        </div>
                     <div class="row">
+                        <div class="col-sm-4">
+                            <div class="feature feature--featured feature-1 boxed boxed--border">
+                                <h4>brand development</h4>
+                                <p> visual DNA, positioning, naming and market research.</p>  </div>
+                        </div>
+                          <div class="col-sm-4">
+                            <div class="feature feature--featured feature-1 boxed boxed--border">
+                                <h4>web development</h4>
+                                <p>full stack web development on Ruby on Rails.</p>  </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="feature feature--featured feature-1 boxed boxed--border">
+                                <h4>creative strategy</h4>
+                                <p>inspiration, mood + element.</p>  </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="feature feature--featured feature-1 boxed boxed--border">
+                                <h4>copywriting</h4>
+                                <p> writing for the world. </p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="container hidden-xs hidden-sm">
+                        <div class="row">
                         <div class="col-md-4">
                             <div class="text-block">
-                                <h4>what we do.</h4>
+                                <h2>what we do.</h2>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -93,8 +135,9 @@
                         </div>
                     </div>
                 </div>
+                </div>
             </section>
-            <section class="imageblock switchable height-60">
+            <section class="imageblock switchable height-60 hidden-sm hidden-xs">
                 <div class="imageblock__content col-md-6 col-sm-4 pos-right">
                     <div class="background-image-holder">
                     <%= image_tag('trumpet.jpg', class: 'background-image-holder', alt: 'Design + Tech') %> </div>
@@ -143,7 +186,7 @@
             <footer class="footer-7 text-center-xs">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6"> <span class="type--fine-print">© 2018 <span class="2017"></span> Armadillo Digital — All Rights Reserved</span>
+                        <div class="col-sm-6"> <span class="type--fine-print">© 2018 <span class="2017"></span> Armadigi Design Private Limited — All Rights Reserved</span>
                         </div>
                         <div class="col-sm-6 text-right text-center-xs">
                         </div>

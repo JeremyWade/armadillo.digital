@@ -1,1 +1,70 @@
-<html> <head> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> <title>Contact Us</title> <style type="text/css"> html{ margin: 0; height: 100%; overflow: hidden; } iframe{ position: absolute; left:0; right:0; bottom:0; top:0; border:0; } </style> </head> <body> <iframe id="typeform-full" width="100%" height="100%" frameborder="0" src="https://jsie.typeform.com/to/uBJ7g6"></iframe> <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script> </body> </html>
+  <% content_for :head do %>
+  <meta property="og:url"           content="http://armadillo.digital/about" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Armadillo Digital: About" />
+  <meta property="og:image"         content="<%=asset_url('admeta.png') %>" />
+  <meta property="fb:app_id"        content="1002420269910134" />
+  <% end %>
+  
+        <div class="nav-container">
+            <div>
+                <div class="bar bar--sm visible-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-3 col-sm-2">
+                                <%= link_to root_path do %>
+                                    <%= image_tag('armadillologo.png', class: 'logo logo-dark', alt: 'Armadillo Digital') %>
+                                    <% end %>
+                            </div>
+                            <div class="col-xs-9 col-sm-10 text-right">
+                                 <%= link_to "home.", root_path, :class => "btn primary btn--sm"%>
+                                 <%= link_to "about.", about_path, :class => "btn primary btn--sm"%>
+                                    <%= link_to "instagram.", "https://www.instagram.com/armadillodigital/", :class => "btn primary btn--sm"%>
+                                       
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav id="menu1" class="bar bar-1 hidden-xs">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-1 col-sm-2 hidden-xs">
+                                <div class="bar__module">
+                                  
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <div class="bar__module">
+                                    <ul class="menu-horizontal text-center">
+                                        <li> <a href="#">
+                                    </a> </li>
+                                    </ul>
+                                </div>
+                               <div class="bar__module">
+                                    <%= link_to "home.", root_path, :class => "btn primary btn--sm"%>
+                                    <%= link_to "about.", about_path, :class => "btn primary btn--sm"%>
+                                    <%= link_to "instagram.", "https://www.instagram.com/armadillodigital/", :class => "btn primary btn--sm"%>
+                                      
+                                        
+                                </div>
+                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="main-container">
+            <section class="text-center space--xs bg--primary ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8">
+                            <h1>Contact</h1>
+                            <p class="lead"> The Armadillo Digital team brings a global perspective to innovation in branding.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<div class="typeform-widget" data-url="https://jsie.typeform.com/to/uBJ7g6" data-transparency="50" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
