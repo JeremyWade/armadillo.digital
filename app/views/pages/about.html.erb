@@ -7,110 +7,214 @@
   <meta property="fb:app_id"        content="1002420269910134" />
   <% end %>
 
-        <div class="nav-container">
-            <div>
-                <div class="bar bar--sm visible-xs">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-3 col-sm-2">
-                                <%= link_to root_path do %>
-                                    <%= image_tag('armadillologo.png', class: 'logo logo-dark', alt: 'Armadillo Digital') %>
-                                    <% end %>
-                            </div>
-                            <div class="col-xs-9 col-sm-10 text-right">
-                                 <%= link_to "home.", root_path, :class => "btn primary btn--sm"%>
-                                    <%= link_to "instagram.", "https://www.instagram.com/armadillodigital/", :class => "btn primary btn--sm"%>
-                                         <%= link_to "contact us.", contact_path, :class => "btn primary btn--sm" %>
-                            </div>
-                        </div>
+       <div class="nav-container">
+            <nav>
+                <div class="nav-bar" data-fixed-at="700">
+                    <div class="nav-module logo-module left">
+                        <%= link_to root_path do %>
+                                    <%= image_tag('adlogo.png', class: 'logo logo-dark', alt: 'Armadillo') %>
+                                <% end %>
+                       
+                    </div>
+                    <div class="nav-module menu-module left">
+                        <ul class="menu">
+                            <li>
+                            <%= link_to "agency", about_path%>
+                            </li>
+                            <li>
+                              <%= link_to "free banding worksheet", brandworksheet_path%>
+                            </li>
+                            <li>
+                            <%= link_to "instagram", "https://www.instagram.com/armadillodigital/", target: "blank"%>
+                            </li>
+                            <li>
+                            <%= link_to "reach out", contact_path%>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <nav id="menu1" class="bar bar-1 hidden-xs">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-1 col-sm-2 hidden-xs">
-                                <div class="bar__module">
-                                  
-                                </div>
-                            </div>
-                            <div class="col-md-12 text-center">
-                                <div class="bar__module">
-                                    <ul class="menu-horizontal text-center">
-                                        <li> <a href="#">
-                                    </a> </li>
-                                    </ul>
-                                </div>
-                               <div class="bar__module">
-                                    <%= link_to "home.", root_path, :class => "btn primary btn--sm"%>
-                                    <%= link_to "instagram.", "https://www.instagram.com/armadillodigital/", :class => "btn primary btn--sm"%>
-                                         <%= link_to "contact us.", contact_path, :class => "btn primary btn--sm" %>
-                                        
-                                </div>
-                                        
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
             </div>
-        </div>
+                   <div class="visible-sm visible-xs">
+                <div class="col-sm-12 columns text-center">
+                            <ul class="menu1">
+                                   <li>
+                            <%= link_to "agency", about_path%>
+                            </li>
+                            <li>
+                              <%= link_to "free banding worksheet", brandworksheet_path%>
+                            </li>
+                            <li>
+                            <%= link_to "instagram", "https://www.instagram.com/armadillodigital/", target: "blank"%>
+                            </li>
+                            <li>
+                            <%= link_to "reach out", contact_path%>
+                            </li>
+                                
+                            
+                                            </ul>   
+                                        </div>
+                                          </div>
+                                
+                                </div>
 
+            </nav> 
+        
+        </div>
+        
         <div class="main-container">
-            <section class="text-center space--xs bg--primary ">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-10 col-md-8">
-                            <h1>About</h1>
-                            <p class="lead"> The Armadillo Digital team brings a global perspective to innovation in branding.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="switchable feature-large">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6"> 
-                       <%= image_tag('ron.jpg', class: 'border--round', alt: 'Ronita Choudhuri') %>
-                        </div>
-                        <div class="col-sm-6 col-md-6">
-                            <div class="switchable__text">
-                                <div class="text-block">
-                                <font color="#333333">  <h2>Ronita Choudhuri</h2> <span>Co-Founder &amp; Director, Creative Strategy</span> </div></font>
-                                <p><font color="#333333">Born and raised in the United States, Ronita began her career in New York, working in sales and marketing for MainStay Investments. She earned a Master's in Globalization and Development from the University of Manchester, before returning to New York to work for the United Nations Democracy Fund. Pursuing her interest in digital strategy and marketing, Ronita moved to Delhi in 2015 and began working as a Strategic Advisor to Creatnet Services. Ronita is a core member of the local NGO Manzil and has a passion for identifying sources of creative talent in India. As Co-Founder and Director of Creative Strategy at Armadillo Digital, Ronita uses her love of art, innovation, and human behavior to raise the bar on design and communications in India.</p></font>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="switchable feature-large switchable--switch bg--dark">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6"> 
-                       <%= image_tag('jwade.jpg', class: 'border--round', alt: 'Jeremy Wade') %>
-                        </div>
-                        <div class="col-sm-6 col-md-6">
-                            <div class="switchable__text">
-                                <div class="text-block">
-                                    <h2><font color="#ecf0f1">Jeremy Wade</h2>
-                                        <span>Co-Founder &amp; Director, Digital Strategy</span></font> </div>
-                                <p><font color="#ecf0f1"> Originally from the United States, Jeremy began his career working with the U.S. Department of Treasury. After moving to India, he founded the Jindal Centre for Social Innovation + Entrepreneurship in 2014 and co-created the FutureLearn Social Enterprise Program, taken by over 8,000 students in 159 countries. An avid speaker on social entrepreneurship and technology in emerging economies, Jeremy is passionate about cryptocurrencies and inclusive financial systems. As Co-Founder and Digital Strategy Director of Armadillo Digital, Jeremy is able to create a global network around elevated design and innovative branding. </p></font>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-                        <footer class="footer-7 text-center-xs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6"> <span class="type--fine-print">© 2018 <span class="2017"></span> Armadigi Design Private Limited — All Rights Reserved</span>
-                        </div>
-                        <div class="col-sm-6 text-right text-center-xs">
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
+        <section class="imagebg height-60" data-overlay="8">
+                        <div class="background-image-holder">
+                    <%= image_tag('bold.jpg', class: 'background-image-holder', alt: 'Move Ahead') %>
 
+                        </div>
+                        <div class="container pos-vertical-center">
+                            <div class="row">
+                                <div class="col-sm-12 text-center">
+                                    <h1>We work with ambitious people and brands.</h1>
+                                    <p class="lead">Anything but ordinary.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </section>
+                    <section class="bg--secondary">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 text-center">
+                                    
+                                    <h3>People First.</h3>
+                                    <p class="lead">Innovation doesn't happen in isolation. It is done best when it is paired with research, strategy, belief and passion. We use significant market research, user data, observation, cultural understanding and the advice of experts in relevant fields to bring you the best ideas tailored for your audience. So that ideas work, and stick.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </section>
+                    <section class="bg--gradient">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="boxed bg--white">
+                                        <span class="h2"></span>
+                                        <h2>Strategy</h2>
+                                        <p>
+                                            Brand Experience<br>Content Strategy<br>Customer Journey Map<br>User Research &amp; Focus Groups&nbsp;<br>Digital Strategy</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="boxed bg--white">
+                                        <span class="h2"></span>
+                                        <h2>Design</h2>
+                                        <p>
+                                            Branding &amp; Identity<br>Creative Concepts &amp; Ideas<br>User Experience<br>Web &amp; Mobile UI<br>Wireframing &amp; Prototyping</p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="boxed bg--white">
+                                        <span class="h2"></span>
+                                        <h2>Development</h2>
+                                        <p>
+                                            Creative Front &amp; Back End<br>E-Commerce<br>Responsive Development<br>Websites &amp; Web Applications<br>Technical Consulting</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        </section>
+                          <section class="bg--secondary">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="elements--title">
+                                        <h1>Our Team</h1>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <a href="#">
+                                        <div class="card card-3">
+                                            <div class="card__image">
+                                        <%= image_tag('ron.jpg', class: 'card__image', alt: 'Ronita') %>
+                                            </div>
+                                            <div class="card__body boxed bg--white">
+                                                <div class="card__title">
+                                                    <h5>Ronita Choudhuri</h5>
+                                                </div>
+                                                <span>
+                                                    <em>Co-Founder, Director of Creative Strategy</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <a href="#">
+                                        <div class="card card-3">
+                                            <div class="card__image">
+                                <%= image_tag('jwade.jpg', class: 'card__image', alt: 'Jeremy') %>
+
+                                            </div>
+                                            <div class="card__body boxed bg--white">
+                                                <div class="card__title">
+                                                    <h5>Jeremy Wade</h5>
+                                                </div>
+                                                <span>
+                                                    <em>Co-Founder, Chief Technology Officer</em>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>  
+                    </section> 
+                    <section class="features features-10">
+                        <div class="feature bg--dark col-md-4 text-center">
+                            <h4>Office</h4>
+                            <p>Safdarjung Enclave, New Delhi India</p>
+                        </div>
+                        <div class="feature bg--black col-md-4 text-center">
+                            <%= link_to "#" do %>
+                            <% end %>
+                            <h4>Give us a call</h4>
+                            <p>+91 728 909 5214</p>
+                        </div>
+                        <div class="feature bg--dark col-md-4 text-center">
+                            <h4>Connect online</h4>
+                            <p>
+                                Email:
+                                <a href="#">hello@</a>armadillo.digital<br> Twitter:
+                                <a href="#">@a</a>rmadillodigital<br>Instagram: @armadillodigital</p>
+                        </div>
+                    </section>  
+        <footer class="footer-3 bg--white text-center-xs">
+            <div class="col-sm-3">
+               <%= link_to root_path do %>
+                <%= image_tag('adlogo.png', class: 'logo logo-dark', alt: 'Armadillo') %>
+            <% end %>
+                <span>+91 728 909 5214</span> <a class="type--underline" href="#">hello@armadillo.digital</a>
+            </div>
+            <div class="col-sm-6 text-center">
+                <ul class="footer__navigation">
+                        <li>
+                            <%= link_to "agency", about_path%>
+                            </li>
+                            <li>
+                              <%= link_to "free banding worksheet", brandworksheet_path%>
+                            </li>
+                            <li>
+                            <%= link_to "instagram", "https://www.instagram.com/armadillodigital/"%>
+                            </li>
+                            <li>
+                            <%= link_to "reach out", contact_path%>
+                            </li>
+                </ul>
+            </div>
+            <div class="col-sm-3 text-right text-center-xs">
+                <span class="type--fine-print">© Copyright <span class="update-year">2018</span> Armadigi Design Private Limited&nbsp;<br>All Rights Reserved</span>
+            </div>
+        </footer>
+        </div>
+        
     </body>
 
 </html>
