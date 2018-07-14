@@ -1,8 +1,8 @@
  <% content_for :head do %>
   <meta property="og:url"           content="http://armadillo.digital/" />
   <meta property="og:type"          content="website" />
-  <meta property="og:title"         content="Armadillo Digital: moving you forward." />
-<meta property="og:description"   content="brand development + innovation agency, helping modern brands create an impact and adapt to the future of storytelling. " />
+  <meta property="og:title"         content="Armadillo Digital" />
+<meta property="og:description"   content="A global design and technology agency specialising in the art of experience." />
   <meta property="og:image"         content="http://www.armadillo.digital/assets/AD-4480a22fec76eed65ebccbd017fce34e11c62c0695c24dc3235fbc890c801880.png" />
   <meta property="fb:app_id"        content="1002420269910134" />
   <% end %>
@@ -21,7 +21,7 @@
                             <%= link_to "agency", about_path%>
                             </li>
                             <li>
-                              <%= link_to "free banding worksheet", brandworksheet_path%>
+                              <%= link_to "free branding worksheet", brandworksheet_path%>
                             </li>
                             <li>
                             <%= link_to "instagram", "https://www.instagram.com/armadillodigital/", target: "blank"%>
@@ -40,7 +40,7 @@
                             <%= link_to "agency", about_path%>
                             </li>
                             <li>
-                              <%= link_to "free banding worksheet", brandworksheet_path%>
+                              <%= link_to "free branding worksheet", brandworksheet_path%>
                             </li>
                             <li>
                             <%= link_to "instagram", "https://www.instagram.com/armadillodigital/", target: "blank"%>
@@ -61,21 +61,26 @@
         </div>
         
         <div class="main-container">
-            <section class="cover height-70 imagebg" data-overlay="2">
-                        <div class="background-image-holder">
-                <%= image_tag('hero17.jpg', class: 'background-image-holder', alt: 'Move Ahead') %>
-                        </div>
-                        <div class="container pos-vertical-center">
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <h1>Strategic Partner. <br> Unparalleled Creativity. </h1>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        
-                    </section></div>
-                                        <section class="bg--secondary">
+            <div class="hidden-xs">
+<section class="hero-divider">
+<%= video_tag("lights.mp4", class: 'video-wrapper', autoplay: true, loop: true) %>
+<div class="col-md-8 col-md-offset-1 col-sm-10 col-sm-offset-2">
+ <h1>Strategic Partner. <br> Unparalleled Creativity. </h1>
+</div>
+</div>
+</section>
+<div class="visible-xs">
+<section class="hero-divider1">
+<%= video_tag("lights.mp4", class: 'video-wrapper', autoplay: true, loop: true) %>
+<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+ <h1>Strategic Partner. <br> Unparalleled Creativity. </h1>
+</div>
+</div>
+
+  </div>
+</section>
+</div>
+                     <section class="bg--secondary">
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm-12 text-center">
@@ -85,6 +90,24 @@
                             </div>
                             
                         </div>
+                         </section>
+                        <section class="bg--dark section--even">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-10">
+                                    <h6>CREATIVE DIGITAL PROJECTS.</h6>
+                                    <p class="lead">
+                                        We are a global design and technology agency specialising in the art of experience. We create category leading brand experiences that have meaning, relevance and deliver extraordinary value.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </section>
+
+
+
+                        <section class="bg--secondary">
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm-12">
@@ -97,13 +120,13 @@
                                         <div class="card__image">
                                     <%= image_tag('small2.jpeg', class: 'card-image', alt: 'hero4') %>
                                         </div>
-                                        <div class="card__body boxed bg--white">
+                                        <div class="card__body boxed bg--dark">
                                             <div class="card__title">
                                                 <h5>Research &amp; Data</h5>
                                             </div>
                                             
                                             <p>
-                                                We make sure to understand your end user. What drives them? What cultural context do they live in? We use market research, data, interviews, observational studies and co-creation to bring clarity on the vision.
+                                                We make sure to understand your end user. What drives them? What cultural context do they live in? We use market research to bring clarity on the vision.
                                             </p>
                                         </div>
                                     </div>
@@ -113,14 +136,13 @@
                                         <div class="card__image">
                                     <%= image_tag('small1.jpeg', class: 'card-image', alt: 'hero4') %>
                                         </div>
-                                        <div class="card__body boxed bg--white">
+                                        <div class="card__body boxed bg--dark">
                                             <div class="card__title">
                                                 <h5>Ideation</h5>
                                             </div>
                                             
                                             <p>
-                                                We use our market research and data and combine it with where you want to go. In that space is where new ideas form to give an experience unlike any other to your end user 
-                                            </p>
+                                                We use our market research and data and combine it with where you want to go. In that space is where new ideas form to give an experience unlike any other.
                                         </div>
                                     </div>
                                 </div>
@@ -129,56 +151,28 @@
                                     <div class="card__image">
                                     <%= image_tag('small3.jpeg', class: 'card-image', alt: 'hero4') %>
                                           </div>
-                                        <div class="card__body boxed bg--white">
+                                        <div class="card__body boxed bg--dark">
                                             <div class="card__title">
-                                                <h5>Experimentation and Feedback.</h5>
+                                                <h5>Delivered</h5>
                                             </div>
                                             
                                             <p>
-                                                We always love to hear feedback and continue to keep you up to date on progress.
+                                                On time. High quality. We execute so you can get back to doing what you do best. 
                                             </p>
                                 </div>
                             </div>
-                                                                    </div>
+                        </div>
                         </div>
                         </section>
-                    <section class="imagebg height-60">
-                        <div class="background-image-holder">
-                        <%= image_tag('hero4.jpg', class: 'background-image-holder', alt: 'hero4') %>
-                         </div>
-                        <div class="container pos-vertical-center">
-                            <div class="row">
-                                <div class="col-sm-12 text-center">
-                                    <h1>Design will shape the future.</h1>
-                                    <p class="lead">You will shape the future.&nbsp;</p>
-                                </div>
-                            </div>
-                            
-                        </div>
-                               </section>
-                                      <section class="bg--dark section--even">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-10">
-                                    <h6>CREATIVE DIGITAL PROJECTS.</h6>
-                                    <p class="lead">
-                                        We are a global design and technology agency specialising in the art of experience. We craft digital, graphic and 3 dimensional thinking, to create category leading brand experiences that have meaning, relevance and deliver extraordinary value.
-                                    </p>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        
-     
-                    
-                    </section><section class="height-70 bg--dark imagebg">
+
+                    <section class="height-70 bg--dark imagebg">
                         <div class="background-image-holder">
                     <%= image_tag('hero21.jpg', class: 'background-image-holder', alt: 'hero4') %>
                         </div>
                         <div class="container pos-vertical-center">
                             <div class="row">
                                 <div class="col-sm-10 col-sm-offset-1 text-center">
-                                    <h1>Let's work together to create immersive experiences</h1>
+                                    <h1>Let's work together to create immersive experiences.</h1>
                                 </div>
                             </div>
                             
@@ -192,9 +186,9 @@
                         <div class="container pos-vertical-center">
                             <div class="row">
                                 <div class="col-md-7 col-sm-9">
-                                    <h2>Inclusive Design</h2>
+                                    <h2>Inclusive Design.</h2>
                                     <p class="lead">
-                                        It just makes common sense.</p>
+                                        It makes business sense.</p>
                                 </div>
                             </div>
                             
@@ -202,7 +196,7 @@
                                 <div class="col-md-5 col-sm-6">
                                     <div class="feature">
                                         
-                                        <p>Creating a world for everybody. We identify talent from around the globe and with different backgrounds to get a diversity of ideas on our projects. We all improve because of it. 
+                                        <p class="lead">Creating a world for everybody. <br>We identify talent from around the globe and with different backgrounds to get a diversity of ideas on our projects. <br>We all improve because of it. 
                                         </p>
                                     </div>
                                     
@@ -241,8 +235,8 @@
                             <h4>Connect online</h4>
                             <p>
                                 Email:
-                                <a href="#">hello@</a>armadillo.digital<br> Twitter:
-                                <a href="#">@a</a>rmadillodigital<br>Instagram: @armadillodigital</p>
+                                hello@armadillo.digital
+                                
                         </div>
                     </section>  
                      <footer class="footer-3 bg--white text-center-xs">
@@ -250,7 +244,7 @@
                <%= link_to root_path do %>
                 <%= image_tag('adlogo.png', class: 'logo logo-dark', alt: 'Armadillo') %>
             <% end %>
-                <span>+91 728 909 5214</span> <a class="type--underline" href="#">hello@armadillo.digital</a>
+                <span>+91 728 909 5214</span><br>hello@armadillo.digital
             </div>
             <div class="col-sm-6 text-center">
                 <ul class="footer__navigation">
@@ -258,7 +252,7 @@
                             <%= link_to "agency", about_path%>
                             </li>
                             <li>
-                              <%= link_to "free banding worksheet", brandworksheet_path%>
+                              <%= link_to "free branding worksheet", brandworksheet_path%>
                             </li>
                             <li>
                             <%= link_to "instagram", "https://www.instagram.com/armadillodigital/"%>
