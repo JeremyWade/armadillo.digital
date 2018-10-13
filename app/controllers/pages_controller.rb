@@ -7,4 +7,6 @@ class PagesController < ApplicationController
   end
   def contact
   end
+  def content
+  end
 end
