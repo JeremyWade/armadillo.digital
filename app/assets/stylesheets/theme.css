@@ -111,7 +111,7 @@ html {
 }
 body {
   font-size: 1em;
-  line-height: 1.625em;
+  line-height: 1.450em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Open Sans', sans-serif;
@@ -1163,8 +1163,8 @@ background: linear-gradient( 101.1deg,  rgba(33,72,89,1) -1.5%, rgba(130,216,229
 }
 .btn--primary,
 .btn--primary:visited {
-  background: #425cbb;
-  border-color: #425cbb;
+  background: #ed7133;
+  border-color: #ed7133;
 }
 .btn--primary .btn__text,
 .btn--primary:visited .btn__text {
@@ -1175,10 +1175,10 @@ background: linear-gradient( 101.1deg,  rgba(33,72,89,1) -1.5%, rgba(130,216,229
   color: #fff;
 }
 .btn--primary:hover {
-  background: #546cc3;
+  background: #ed7133;
 }
 .btn--primary:active {
-  background: #3b53a8;
+  background: #ed7133;
 }
 .btn--primary-1,
 .btn--primary-1:visited {
@@ -3445,10 +3445,10 @@ span.label {
 }
 /*! -- Pillar Buttons -- */
 .btn.btn--primary {
-  border-color: #425cbb;
+  border-color: #000;
 }
 .btn.btn--primary:hover {
-  border-color: #546cc3;
+  border-color: #fff;
 }
 .btn.btn--success {
   background: #64b671;

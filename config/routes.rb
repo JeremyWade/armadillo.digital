@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     get "brandworksheet" => "pages#brandworksheet"
     get "contact" => "pages#contact"
     get "content" => "pages#content"
+    get "intelligence/fashion" => "pages#fashion"
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
